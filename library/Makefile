@@ -130,6 +130,7 @@ clean:
 	$(MAKE) -C xilinx/axi_xcvrlb clean
 	$(MAKE) -C xilinx/util_adxcvr clean
 	$(MAKE) -C xilinx/util_clkdiv clean
+	$(MAKE) -C axi_lite_temac clean
 
 	$(MAKE) -C interfaces clean
 
@@ -255,6 +256,7 @@ lib:
 	$(MAKE) -C xilinx/axi_xcvrlb
 	$(MAKE) -C xilinx/util_adxcvr
 	$(MAKE) -C xilinx/util_clkdiv
+	$(MAKE) -C axi_lite_temac
 
 	$(MAKE) -C interfaces
 
